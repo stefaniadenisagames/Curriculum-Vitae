@@ -1,0 +1,73 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{casual}
+\moderncvcolor{green}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+% personal data
+\name{Stefania}{Ionescu}
+\address{Timisoara}{300242}{Romania}
+\phone[mobile]{+40~(761)~631~573}
+\email{stefaniadenisaionescu@gmail.com}
+\social[linkedin]{stefaniadenisaionescu}
+\social[github]{stefaniadenisaionescu}
+\extrainfo{Computer Science enthusiast.}
+
+\quote{Unix is user-friendly -- it's just choosy about who its friends are.}                               
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2015--2018}{Bachelor of Science}{West University of Timisoara}{Romania}{\textit{Faculty of Mathematics and Informatics, Department of Informatics}}{Here I have started to understand more in-depth \texttt{C++} and studied more programming laguages such as \texttt{Java}, \texttt{python} and other informatics related topics.}  % arguments 3 to 6 can be left empty
+
+
+%\subsection{PROJECT}
+%\cventry{2019}{Sentiment Analysis Based on Natural Language Processing.}{}{}{}{I am currently working on my Bachelor Degree Paper.\\}
+
+\cventry{2011--2015}{Baccalaureate}{High School Diploma}{Colegiul National "Tudor Vladimirescu"}{\textit{Mathematics and Informatics Intensive}}{Here I developed basic \texttt{C} programming language skills and studied basic algorithms.}
+
+\section{Experience}
+\subsection{Vocational}
+\cventry{1 June, 2018--current}{Junior Software Development Engineer}{Nokia}{Timisoara}{Department of Mobile Networks (Research \& Development)}{At Nokia I investigate and solve issues or implement new features for GSM/LTE products.\newline{}%
+Skills developed here:%
+\begin{itemize}%
+\item \texttt{C++ 11} and above;
+\item Design Patterns
+\item Module Testing, Unit Testing;
+\item \texttt{SVN} versioning and revision control system;
+\item \texttt{Linux};
+\item \texttt{Jira};
+\end{itemize}}
+\cventry{1 June--1 September, 2017}{Summer Intern}{Nokia}{Timisoara}{Department of Applications \& Analysis}{In this two months summer practice I learned the basics of \texttt{Puppet}, \texttt{Negios} and \texttt{Robot Framework} and developed \texttt{Linux} (CentOS 6) skills.\newline{}}
+
+\section{Languages}
+\cvitemwithcomment{English}{Intermediate}{B2}
+\cvitemwithcomment{German}{Beginner}{A1}
+
+\section{Projects}
+\cvlistitem{\textbf{Cloud Detection Based on Sentinel 2 Satellite Imagery}\\
+An algorithm based on threshold method and spectral bands computing which extracts two cloud masks (thin and thick clouds). Technologies: \texttt{python} and \texttt{gdal}.}
+\cvlistitem{\textbf{Informed and Uninformed Algorithms Helper}\\
+Depth Limited Search, Depth Limited Search, Depth Limited Search, Breadth First Search, Breadth First Search, Depth Limited Search algorithms were implemented and using a user-friendly interface display step by step how every algorithm works. Purpose: educational. Technology: \texttt{Java}.  
+}
+\cvlistitem{\textbf{Sentiment Analysis Based on Speech}\\
+An application which transforms speech to text then processes text using a \texttt{C\#} plugin and displays the predominant sentiment. Technologies: \texttt{C\#} and \texttt{Visual Studio Plug-ins}}
+
+\cvlistitem{\textbf{Command Line Interpreter}\\
+A program able to interpret a set of internally-implemented comands alongside with linux basic commands. Technology: \texttt{C++}}
+
+\section{Others}
+\cvitemwithcomment{Driver License}{B}{}
+\end{document}
+
+
+%% end of file `template.tex'.
